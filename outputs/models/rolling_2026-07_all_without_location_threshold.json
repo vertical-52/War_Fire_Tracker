@@ -1,0 +1,21 @@
+{
+  "cutoff": "2026-07-01",
+  "feature_set": "All without location",
+  "features": [
+    "brightness",
+    "bright_t31",
+    "frp",
+    "confidence",
+    "land_cover_code",
+    "pop_exact",
+    "excess_fire",
+    "fire_in_window",
+    "pre_war_annual_freq",
+    "month",
+    "daynight",
+    "fwi"
+  ],
+  "threshold": 0.7093162536621094,
+  "train_rows": 296389,
+  "val_rows": 12676
+}

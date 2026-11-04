@@ -1,0 +1,14 @@
+model,group,average,lowest,highest
+Without location,Type of place,37.1,32.7,40.9
+Without location,Time,19.1,16.4,21.1
+Without location,Fire history,18.9,15.4,21.5
+Without location,The Economist's signal,13.1,12.3,13.9
+Without location,Heat,7.7,6.5,9.2
+Without location,Weather,4.2,4.0,4.6
+With location,Location,44.5,42.3,46.2
+With location,Type of place,21.3,16.0,24.3
+With location,Time,14.0,11.2,18.9
+With location,Fire history,7.1,5.2,10.4
+With location,The Economist's signal,6.9,6.0,7.6
+With location,Heat,3.8,3.4,4.5
+With location,Weather,2.5,2.4,2.5

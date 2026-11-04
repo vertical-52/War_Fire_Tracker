@@ -1,0 +1,23 @@
+{
+  "cutoff": "2026-01-01",
+  "feature_set": "All features",
+  "features": [
+    "brightness",
+    "bright_t31",
+    "frp",
+    "confidence",
+    "latitude",
+    "longitude",
+    "land_cover_code",
+    "pop_exact",
+    "excess_fire",
+    "fire_in_window",
+    "pre_war_annual_freq",
+    "month",
+    "daynight",
+    "fwi"
+  ],
+  "threshold": 0.8479155898094177,
+  "train_rows": 288098,
+  "val_rows": 2506
+}

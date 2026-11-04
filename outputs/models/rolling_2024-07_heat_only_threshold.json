@@ -1,0 +1,13 @@
+{
+  "cutoff": "2024-07-01",
+  "feature_set": "Heat only",
+  "features": [
+    "brightness",
+    "bright_t31",
+    "frp",
+    "confidence"
+  ],
+  "threshold": 0.09160314500331879,
+  "train_rows": 131089,
+  "val_rows": 17473
+}

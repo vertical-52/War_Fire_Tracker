@@ -1,0 +1,6 @@
+setup,war fires caught,caught (%),false alarms,precision (%)
+Both models flag (Tier 1),1951,28.9,281,87.4
+Model with location only,4396,65.2,2145,67.2
+Model without location only,2191,32.5,2287,48.9
+Combined by distance (proposed setup),4491,66.6,2287,66.3
+Either model flags,4636,68.7,4151,52.8

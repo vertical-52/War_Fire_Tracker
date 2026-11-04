@@ -1,0 +1,5 @@
+matching rule,Tier 1: both models flag,Tier 2: setup & Economist,Tier 3: our setup,The Economist,All fires (No model)
+"3 km, same day",1.66,3.42,2.57,1.21,1.16
+"3 km, ±1 day",2.04,3.23,2.42,1.06,1.07
+"5 km, ±1 day",1.8,1.82,1.72,0.98,1.04
+"10 km, ±1 day",1.28,1.27,1.26,0.97,1.02

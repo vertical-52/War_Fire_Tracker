@@ -1,0 +1,8 @@
+method,near front (<=30 km),border strip,far from fighting,flags (near / border / far)
+Tier 1: both models flag,1.03,1.38,1.8,"10,597 / 298 / 549"
+Tier 2: setup & Economist,0.99,0.67,1.82,"51,645 / 528 / 2,540"
+Tier 3: our setup,1.0,1.02,1.72,"68,265 / 1,020 / 4,612"
+The Economist,1.05,0.44,0.98,"130,639 / 18,821 / 112,037"
+Baseline: every fire near the fighting,1.05,0.57,,"169,493 / 23,624 / 0"
+Baseline: excess_fire > 0,1.04,0.42,1.01,"114,016 / 18,620 / 108,563"
+All fires (No model),1.05,0.57,1.04,"169,493 / 23,624 / 199,506"

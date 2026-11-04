@@ -1,0 +1,19 @@
+{
+  "cutoff": "2025-01-01",
+  "feature_set": "No location, no Economist",
+  "features": [
+    "brightness",
+    "bright_t31",
+    "frp",
+    "confidence",
+    "land_cover_code",
+    "pop_exact",
+    "pre_war_annual_freq",
+    "month",
+    "daynight",
+    "fwi"
+  ],
+  "threshold": 0.30299583077430725,
+  "train_rows": 207310,
+  "val_rows": 7606
+}

@@ -1,0 +1,19 @@
+{
+  "cutoff": "2025-01-01",
+  "feature_set": "Context only",
+  "features": [
+    "latitude",
+    "longitude",
+    "land_cover_code",
+    "pop_exact",
+    "excess_fire",
+    "fire_in_window",
+    "pre_war_annual_freq",
+    "month",
+    "daynight",
+    "fwi"
+  ],
+  "threshold": 0.8091925382614136,
+  "train_rows": 207310,
+  "val_rows": 7606
+}

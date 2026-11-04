@@ -1,0 +1,4 @@
+zone,alerts (each),The Economist: lift,ours (top-N): lift
+near front (<=30 km),130639,1.05,1.03
+border strip,18821,0.44,0.58
+far from fighting,112037,0.98,1.18

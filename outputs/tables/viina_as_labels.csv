@@ -1,0 +1,8 @@
+zone,status,fires,would_be_war,by_chance,beyond chance
+border strip,unknown,23535,25,34,0
+border strip,war (UCDP label),89,1,2,0
+far from fighting,normal (rule label),190220,933,868,65
+far from fighting,unknown,8649,254,186,68
+far from fighting,war (UCDP label),637,84,46,38
+near front (<=30 km),unknown,163110,2514,2346,168
+near front (<=30 km),war (UCDP label),6383,975,832,143

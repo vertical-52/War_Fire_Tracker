@@ -1,0 +1,8 @@
+method,fires,VIINA strike nearby,placebo,lift
+Tier 1: both models flag,11444,0.257,0.247,1.044
+Tier 2: setup & Economist,54713,0.107,0.105,1.018
+Tier 3: our setup,73897,0.1,0.097,1.032
+The Economist,261497,0.048,0.047,1.02
+Baseline: every fire near the fighting,193117,0.056,0.054,1.033
+Baseline: excess_fire > 0,241199,0.04,0.039,1.022
+All fires (No model),392623,0.044,0.042,1.034

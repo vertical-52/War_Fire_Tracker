@@ -1,0 +1,8 @@
+,Jul 2024 – Dec 2024,Jul 2024 – Dec 2024,Jan 2025 – Jun 2025,Jan 2025 – Jun 2025,Jul 2025 – Dec 2025,Jul 2025 – Dec 2025,Jan 2026 – Jun 2026,Jan 2026 – Jun 2026
+,caught (%),precision (%),caught (%),precision (%),caught (%),precision (%),caught (%),precision (%)
+setup,,,,,,,,
+Both models flag (Tier 1),17.7,99.1,23.3,80.8,40.9,88.9,30.0,61.5
+Model with location only,63.5,91.5,47.5,62.9,75.4,57.2,43.3,55.2
+Model without location only,19.4,77.1,32.3,28.9,42.7,53.4,45.0,32.4
+Combined by distance (proposed setup),63.6,91.7,49.8,38.5,76.5,67.3,52.6,35.9
+Either model flags,65.2,85.0,56.5,35.6,77.2,46.6,58.4,34.6

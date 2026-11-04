@@ -1,0 +1,25 @@
+cutoff,period,feature set,war fires,test fires,PR-AUC,random guess
+2024-07-01,Jul 2024 – Dec 2024,All features,2638,66354,0.8717,0.0398
+2024-07-01,Jul 2024 – Dec 2024,Heat only,2638,66354,0.0492,0.0398
+2024-07-01,Jul 2024 – Dec 2024,Context only,2638,66354,0.8863,0.0398
+2024-07-01,Jul 2024 – Dec 2024,All without Economist,2638,66354,0.8708,0.0398
+2024-07-01,Jul 2024 – Dec 2024,All without location,2638,66354,0.3977,0.0398
+2024-07-01,Jul 2024 – Dec 2024,"No location, no Economist",2638,66354,0.3076,0.0398
+2025-01-01,Jan 2025 – Jun 2025,All features,812,31843,0.5342,0.0255
+2025-01-01,Jan 2025 – Jun 2025,Heat only,812,31843,0.0234,0.0255
+2025-01-01,Jan 2025 – Jun 2025,Context only,812,31843,0.5581,0.0255
+2025-01-01,Jan 2025 – Jun 2025,All without Economist,812,31843,0.5528,0.0255
+2025-01-01,Jan 2025 – Jun 2025,All without location,812,31843,0.23,0.0255
+2025-01-01,Jan 2025 – Jun 2025,"No location, no Economist",812,31843,0.1928,0.0255
+2025-07-01,Jul 2025 – Dec 2025,All features,2830,43845,0.6527,0.0645
+2025-07-01,Jul 2025 – Dec 2025,Heat only,2830,43845,0.0811,0.0645
+2025-07-01,Jul 2025 – Dec 2025,Context only,2830,43845,0.6291,0.0645
+2025-07-01,Jul 2025 – Dec 2025,All without Economist,2830,43845,0.6285,0.0645
+2025-07-01,Jul 2025 – Dec 2025,All without location,2830,43845,0.4893,0.0645
+2025-07-01,Jul 2025 – Dec 2025,"No location, no Economist",2830,43845,0.4363,0.0645
+2026-01-01,Jan 2026 – Jun 2026,All features,464,18461,0.4916,0.0251
+2026-01-01,Jan 2026 – Jun 2026,Heat only,464,18461,0.0346,0.0251
+2026-01-01,Jan 2026 – Jun 2026,Context only,464,18461,0.4472,0.0251
+2026-01-01,Jan 2026 – Jun 2026,All without Economist,464,18461,0.449,0.0251
+2026-01-01,Jan 2026 – Jun 2026,All without location,464,18461,0.3412,0.0251
+2026-01-01,Jan 2026 – Jun 2026,"No location, no Economist",464,18461,0.2254,0.0251

@@ -1,0 +1,21 @@
+{
+  "cutoff": "2024-07-01",
+  "feature_set": "All without Economist",
+  "features": [
+    "brightness",
+    "bright_t31",
+    "frp",
+    "confidence",
+    "latitude",
+    "longitude",
+    "land_cover_code",
+    "pop_exact",
+    "pre_war_annual_freq",
+    "month",
+    "daynight",
+    "fwi"
+  ],
+  "threshold": 0.7716686725616455,
+  "train_rows": 131089,
+  "val_rows": 17473
+}

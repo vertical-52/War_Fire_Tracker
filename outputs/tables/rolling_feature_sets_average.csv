@@ -1,0 +1,7 @@
+feature set,PR-AUC,random guess,times random,spatial test PR-AUC
+All features,0.638,0.039,16.46,0.806
+Heat only,0.047,0.039,1.215,0.078
+Context only,0.63,0.039,16.27,0.798
+All without Economist,0.625,0.039,16.143,0.773
+All without location,0.365,0.039,9.413,0.499
+"No location, no Economist",0.291,0.039,7.501,0.417

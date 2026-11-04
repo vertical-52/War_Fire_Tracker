@@ -1,0 +1,162 @@
+report section,what,this run,report,match
+5.1,"FIRMS detections, Jan 2019 - Aug 2026","1,205,215","1,205,215",✓
+5.1,Pre-war detections,"510,537","510,537",✓
+3,"UCDP events in Ukraine, 2019 - Aug 2026","39,527","39,527",✓
+3,UCDP events with precise date and location,"8,783","8,783",✓
+5.1,War-time detections (from 24 Feb 2022),"694,678","694,678",✓
+5.2,War-time fires matched to The Economist (%),85.5,85.5,✓
+5.1,Fires after removing impossible coordinates,"694,677","694,677",✓
+5.2,Median distance to the contact line (km),47.9,47.9,✓
+5.2,Fires on the Russian-held side (%),41.1,41.1,✓
+5.3,Fires labelled war before the correction,"16,133","16,133",✓
+5.3,War matches at industrial sites,"2,024","2,024",✓
+5.3,Moved to unknown (routine factory heat),"1,911","1,911",✓
+5.3,Kept as war (unusual heat),113,113,✓
+5.3,War fires,"14,222","14,222",✓
+5.3,Normal fires,"342,326","342,326",✓
+5.3,Unknown fires,"338,129","338,129",✓
+5.3,"Normal fires, rule recurring_pre_war","165,211","165,211",✓
+5.3,"Normal fires, rule agricultural","130,714","130,714",✓
+5.3,"Normal fires, rule forest","31,590","31,590",✓
+5.3,"Normal fires, rule industrial","14,811","14,811",✓
+5.3,Unknown fires within 30 km of the contact line,"265,654","265,654",✓
+5.3,Unknown fires in the northern border strip,"52,055","52,055",✓
+5.3,War share of labelled fires in 2026 (%),1.700,1.700,✓
+5.3,Economist war fires near a precise UCDP event (%),2.400,2.400,✓
+5.3,UCDP events with an Economist war fire nearby (%),15.1,15.1,✓
+5.3,Labelled fires (training set),"356,548","356,548",✓
+5.2,Training fires without The Economist's features,"38,059","38,059",✓
+5.2,Training fires without FWI,553,553,✓
+5.5,chronological train fires,"214,916","214,916",✓
+5.5,chronological val fires,"75,688","75,688",✓
+5.5,chronological test fires,"65,944","65,944",✓
+5.5,spatial train fires,"249,207","249,207",✓
+5.5,spatial val fires,"50,496","50,496",✓
+5.5,spatial test fires,"56,845","56,845",✓
+6.2,"Chronological, with location: validation PR-AUC",0.604,0.604,✓
+6.2,"Chronological, with location: test PR-AUC",0.133,0.133,✓
+6.2,"Chronological, without location: validation PR-AUC",0.442,0.442,✓
+6.2,"Chronological, without location: test PR-AUC",0.277,0.277,✓
+6.2,War share of labelled fires in 2025 (%),4.800,4.800,✓
+6.1,"Rolling PR-AUC (average), All features",0.638,0.638,✓
+6.1,"Rolling PR-AUC (average), Heat only",0.047,0.047,✓
+6.1,"Rolling PR-AUC (average), Context only",0.630,0.630,✓
+6.1,"Rolling PR-AUC (average), All without Economist",0.625,0.625,✓
+6.1,"Rolling PR-AUC (average), All without location",0.365,0.365,✓
+6.1,"Rolling PR-AUC (average), No location, no Economist",0.291,0.291,✓
+6.1,Rolling random guess (average),0.039,0.039,✓
+6.1,"Spatial test PR-AUC, All features",0.806,0.806,✓
+6.1,"Spatial test PR-AUC, Heat only",0.078,0.078,✓
+6.1,"Spatial test PR-AUC, All without location",0.499,0.499,✓
+6.2,Jul 2024 – Dec 2024: PR-AUC with location,0.872,0.872,✓
+6.2,Jul 2024 – Dec 2024: PR-AUC without location,0.398,0.398,✓
+6.2,Jan 2025 – Jun 2025: PR-AUC with location,0.534,0.534,✓
+6.2,Jan 2025 – Jun 2025: PR-AUC without location,0.230,0.230,✓
+6.2,Jul 2025 – Dec 2025: PR-AUC with location,0.653,0.653,✓
+6.2,Jul 2025 – Dec 2025: PR-AUC without location,0.489,0.489,✓
+6.2,Jan 2026 – Jun 2026: PR-AUC with location,0.492,0.492,✓
+6.2,Jan 2026 – Jun 2026: PR-AUC without location,0.341,0.341,✓
+6.1,"Gain share, without location model: Type of place (%)",37.1,37.1,✓
+6.1,"Gain share, without location model: Time (%)",19.1,19.1,✓
+6.1,"Gain share, without location model: Fire history (%)",18.9,18.9,✓
+6.1,"Gain share, without location model: The Economist's signal (%)",13.1,13.1,✓
+6.1,"Gain share, without location model: Heat (%)",7.700,7.700,✓
+6.1,"Gain share, without location model: Weather (%)",4.200,4.200,✓
+6.1,"Gain share, with location model: Location (%)",44.5,44.5,✓
+6.1,"Gain share, with location model: Type of place (%)",21.3,21.3,✓
+6.4.1,"Fires scored, Jul 2024 - Aug 2026 (labelled and unknown)","440,377","440,377",✓
+6.3,War fires in the four test periods,"6,744","6,744",✓
+6.3,Both models flag (Tier 1): caught (%),28.9,29,✓
+6.3,Both models flag (Tier 1): false alarms,281,281,✓
+6.3,Both models flag (Tier 1): precision (%),87.4,87,✓
+6.3,Model with location only: caught (%),65.2,65,✓
+6.3,Model with location only: false alarms,"2,145","2,145",✓
+6.3,Model with location only: precision (%),67.2,67,✓
+6.3,Model without location only: caught (%),32.5,32,✓
+6.3,Model without location only: false alarms,"2,287","2,287",✓
+6.3,Model without location only: precision (%),48.9,49,✓
+6.3,Combined by distance (proposed setup): caught (%),66.6,67,✓
+6.3,Combined by distance (proposed setup): false alarms,"2,287","2,287",✓
+6.3,Combined by distance (proposed setup): precision (%),66.3,66,✓
+6.3,Either model flags: caught (%),68.7,69,✓
+6.3,Either model flags: false alarms,"4,151","4,151",✓
+6.3,Either model flags: precision (%),52.8,53,✓
+6.3,War fires beyond 30 km caught by the combined setup,163,163,✓
+6.3,War fires beyond 30 km caught by the location model alone,68,68,✓
+6.4.1,"VIINA artillery, air-strike and drone events, 2024-2026","52,421","52,421",✓
+6.4.1,"Lift near the front, Tier 1: both models flag",1.030,1.030,✓
+6.4.1,"Lift far from the fighting, Tier 1: both models flag",1.800,1.800,✓
+6.4.1,"Lift near the front, Tier 2: setup & Economist",0.990,0.990,✓
+6.4.1,"Lift far from the fighting, Tier 2: setup & Economist",1.820,1.820,✓
+6.4.1,"Lift near the front, Tier 3: our setup",1.000,1.000,✓
+6.4.1,"Lift far from the fighting, Tier 3: our setup",1.720,1.720,✓
+6.4.1,"Lift near the front, The Economist",1.050,1.050,✓
+6.4.1,"Lift far from the fighting, The Economist",0.980,0.980,✓
+6.4.1,"Lift near the front, All fires (No model)",1.050,1.050,✓
+6.4.1,"Lift far from the fighting, All fires (No model)",1.040,1.040,✓
+6.4.1,"Far, equal alerts: our lift",1.180,1.180,✓
+6.4.1,"Far lift, 3 km, same day, Tier 1: both models flag",1.660,1.660,✓
+6.4.1,"Far lift, 3 km, same day, Tier 2: setup & Economist",3.420,3.420,✓
+6.4.1,"Far lift, 3 km, same day, Tier 3: our setup",2.570,2.570,✓
+6.4.1,"Far lift, 3 km, same day, The Economist",1.210,1.210,✓
+6.4.1,"Far lift, 3 km, same day, All fires (No model)",1.160,1.160,✓
+6.4.1,"Far lift, 3 km, ±1 day, Tier 1: both models flag",2.040,2.040,✓
+6.4.1,"Far lift, 3 km, ±1 day, Tier 2: setup & Economist",3.230,3.230,✓
+6.4.1,"Far lift, 3 km, ±1 day, Tier 3: our setup",2.420,2.420,✓
+6.4.1,"Far lift, 3 km, ±1 day, The Economist",1.060,1.060,✓
+6.4.1,"Far lift, 3 km, ±1 day, All fires (No model)",1.070,1.070,✓
+6.4.1,"Far lift, 5 km, ±1 day, Tier 1: both models flag",1.800,1.800,✓
+6.4.1,"Far lift, 5 km, ±1 day, Tier 2: setup & Economist",1.820,1.820,✓
+6.4.1,"Far lift, 5 km, ±1 day, Tier 3: our setup",1.720,1.720,✓
+6.4.1,"Far lift, 5 km, ±1 day, The Economist",0.980,0.980,✓
+6.4.1,"Far lift, 5 km, ±1 day, All fires (No model)",1.040,1.040,✓
+6.4.1,"Far lift, 10 km, ±1 day, Tier 1: both models flag",1.280,1.280,✓
+6.4.1,"Far lift, 10 km, ±1 day, Tier 2: setup & Economist",1.270,1.270,✓
+6.4.1,"Far lift, 10 km, ±1 day, Tier 3: our setup",1.260,1.260,✓
+6.4.1,"Far lift, 10 km, ±1 day, The Economist",0.970,0.970,✓
+6.4.1,"Far lift, 10 km, ±1 day, All fires (No model)",1.020,1.020,✓
+6.4.1,"Our false alarms (labelled normal, flagged by the setup)","2,598","2,598",✓
+6.4.1,Our false alarms that look like real strikes,41,41,✓
+6.4.1,The Economist's false alarms,"105,057","105,057",✓
+6.4.2,Labelled test fires in The Economist's data,"151,764","151,764",✓
+6.4.2,War share of these fires (%),4.300,4.300,✓
+6.4.2,Tier 1: both models flag: precision (%),87.1,87.1,✓
+6.4.2,Tier 1: both models flag: caught (%),29.3,29.3,✓
+6.4.2,Tier 1: both models flag: alerts,"2,176","2,176",✓
+6.4.2,Tier 3: combined setup: precision (%),65.4,65.4,✓
+6.4.2,Tier 3: combined setup: caught (%),66.2,66.2,✓
+6.4.2,Tier 3: combined setup: alerts,"6,546","6,546",✓
+6.4.2,The Economist war_fire: precision (%),6.100,6.100,✓
+6.4.2,The Economist war_fire: caught (%),79.0,79.0,✓
+6.4.2,The Economist war_fire: alerts,"83,644","83,644",✓
+6.4.2,The Economist war_fire_restrictive (tighter version): precision (%),5.300,5.300,✓
+6.4.2,The Economist war_fire_restrictive (tighter version): caught (%),48.3,48.3,✓
+6.4.2,The Economist war_fire_restrictive (tighter version): alerts,"58,805","58,805",✓
+6.4.2,Tier 2: precision (%),77.1,77,✓
+6.4.2,Tier 2: caught (%),52.7,53,✓
+6.4.2,Tier 2: alerts,"4,421","4,421",✓
+6.4.2,Our alerts at the same recall as war_fire,"11,990","11,990",✓
+6.4.2,Our alerts at the same recall as war_fire_restrictive,"4,630","4,630",✓
+6.4.2,War fires caught by the two methods together (%),93.0,93,✓
+6.4.2,War fires only The Economist finds,"1,704","1,704",✓
+6.4.2,False alarms only The Economist raises,"77,519","77,519",✓
+6.4.3,Unknown fires in the comparison,"195,294","195,294",✓
+6.4.3,Factory fires moved out of the war labels (in the comparison),"1,118","1,118",✓
+6.4.3,"Unknowns flagged, Tier 1: both models flag: all (%)",4.700,4.700,✓
+6.4.3,"Unknowns flagged, Tier 1: both models flag: far (%)",2.100,2.100,✓
+6.4.3,"Unknowns flagged, Tier 1: both models flag: factory heat (%)",0.000,0.000,✓
+6.4.3,"Unknowns flagged, Tier 2: combined setup and The Economist agree: all (%)",25.6,25.6,✓
+6.4.3,"Unknowns flagged, Tier 2: combined setup and The Economist agree: far (%)",15.2,15.2,✓
+6.4.3,"Unknowns flagged, Tier 2: combined setup and The Economist agree: factory heat (%)",0.400,0.400,✓
+6.4.3,"Unknowns flagged, Tier 3: combined setup: all (%)",34.2,34.2,✓
+6.4.3,"Unknowns flagged, Tier 3: combined setup: far (%)",21.0,21.0,✓
+6.4.3,"Unknowns flagged, Tier 3: combined setup: factory heat (%)",2.100,2.100,✓
+6.4.3,"Unknowns flagged, The Economist war_fire: all (%)",77.3,77.3,✓
+6.4.3,"Unknowns flagged, The Economist war_fire: far (%)",76.3,76.3,✓
+6.4.3,"Unknowns flagged, The Economist war_fire: factory heat (%)",56.4,56.4,✓
+6.4.3,Unknowns > 200 km flagged by the setup (%),4.300,4.300,✓
+6.4.3,Unknowns > 200 km flagged by The Economist (%),86.0,86,✓
+6.4.3,"War labels per 100 unknowns, near the contact line",4.900,4.900,✓
+6.4.3,"War labels per 100 unknowns, northern border strip",0.500,0.500,✓
+6.4.3,"Setup flags, August vs June 2026 (times)",5.600,5.600,✓
+6.4.3,"The Economist's flags, August vs June 2026 (times)",4.400,4.400,✓

@@ -1,0 +1,8 @@
+method,precision (%),war fires caught (%),alerts,TP,FP,FN,PR-AUC
+Tier 1: both models flag,87.1,29.3,2176,1895,281,4572,
+Tier 2: combined setup and The Economist agree,77.1,52.7,4421,3408,1013,3059,
+Tier 3: combined setup,65.4,66.2,6546,4282,2264,2185,0.642
+The Economist war_fire,6.1,79.0,83644,5112,78532,1355,
+The Economist war_fire_restrictive (tighter version),5.3,48.3,58805,3122,55683,3345,
+Our setup at the same recall as war_fire,42.6,79.0,11990,5112,6878,1355,
+Our setup at the same recall as war_fire_restrictive,67.4,48.3,4630,3122,1508,3345,
